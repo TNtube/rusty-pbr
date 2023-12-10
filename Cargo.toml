@@ -6,7 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-gpu-allocator = "0.22.0"
+winit = "0.29.4"
+rusty-d3d12 = "0.5.2"
 
 [target.'cfg(windows)'.dependencies]
 # Only needed for public-winapi interop helpers
